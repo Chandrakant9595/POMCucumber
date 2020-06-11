@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate the login functionality with correct username and password",
+        "description": "",
+        "id": "degital-bank-functioanl-test;validate-the-login-functionality-with-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9508950501,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opened the browser",
+            "match": {
+              "location": "LoginPageDefination.user_opened_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11611650,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginPageDefination.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8095621759,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs in to the application",
+            "match": {
+              "location": "LoginPageDefination.user_logs_in_to_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Degital bank functioanl test",
+    "description": "",
+    "id": "degital-bank-functioanl-test",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/qa/features/DegitalBank.feature"
+  }
+]
