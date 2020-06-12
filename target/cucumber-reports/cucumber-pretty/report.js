@@ -33,21 +33,21 @@ formatter.match({
   "location": "LoginPageDefination.user_opened_the_browser()"
 });
 formatter.result({
-  "duration": 9508950501,
+  "duration": 12229485782,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageDefination.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 11611650,
+  "duration": 8629316,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageDefination.user_logs_in_to_the_application()"
 });
 formatter.result({
-  "duration": 8095621759,
+  "duration": 4610006051,
   "status": "passed"
 });
 });
