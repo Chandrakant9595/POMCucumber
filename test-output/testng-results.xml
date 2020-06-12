@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="EcommerceDemo" duration-ms="13834" started-at="2020-06-12T04:51:01Z" finished-at="2020-06-12T04:51:14Z">
+  <suite name="Default suite" duration-ms="34126" started-at="2020-06-12T07:16:53Z" finished-at="2020-06-12T07:17:27Z">
     <groups>
       <group name="cucumber">
-        <method signature="LoginPageRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.LoginPageRunner@176aeea]" name="feature" class="com.qa.runner.LoginPageRunner"/>
+        <method signature="LoginPageRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="feature" class="com.qa.runner.LoginPageRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="POMCucumber" duration-ms="13834" started-at="2020-06-12T04:51:01Z" finished-at="2020-06-12T04:51:14Z">
+    <test name="Default test" duration-ms="34126" started-at="2020-06-12T07:16:53Z" finished-at="2020-06-12T07:17:27Z">
       <class name="com.qa.runner.LoginPageRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.LoginPageRunner@176aeea]" name="setUpClass" is-config="true" duration-ms="368" started-at="2020-06-12T04:51:01Z" finished-at="2020-06-12T04:51:01Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="setUpClass" is-config="true" duration-ms="282" started-at="2020-06-12T07:16:53Z" finished-at="2020-06-12T07:16:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.LoginPageRunner@176aeea]" name="feature" duration-ms="13311" started-at="2020-06-12T04:51:01Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-12T04:51:14Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="feature" duration-ms="33689" started-at="2020-06-12T07:16:54Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-12T07:17:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Degital bank functioanl test]]>
+                <![CDATA[Degital bank login test]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.LoginPageRunner@176aeea]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2020-06-12T04:51:14Z" finished-at="2020-06-12T04:51:14Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2020-06-12T07:17:27Z" finished-at="2020-06-12T07:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.qa.runner.LoginPageRunner -->
-    </test> <!-- POMCucumber -->
-  </suite> <!-- EcommerceDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

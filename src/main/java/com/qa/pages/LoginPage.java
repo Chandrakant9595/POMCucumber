@@ -46,4 +46,7 @@ public class LoginPage extends TestBase{
 		return driver.getCurrentUrl();
 	}
 	
+	public String validateThePageTitle() {
+		return driver.getTitle();
+	}
 }

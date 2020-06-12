@@ -10,7 +10,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-        features = "src/main/java/com/qa/features/DegitalBank.feature",
+        features = "src/main/java/com/qa/features/Login.feature",
         glue = {"com/qa/stepdefination"}, 
         dryRun = false, 
         monochrome = true, 

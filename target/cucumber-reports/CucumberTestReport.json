@@ -3,43 +3,129 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "Validate the login functionality with correct username and password",
+        "before": [
+          {
+            "result": {
+              "duration": 9643798373,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageDefination.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the Digital bank URL",
         "description": "",
-        "id": "degital-bank-functioanl-test;validate-the-login-functionality-with-correct-username-and-password",
+        "id": "degital-bank-login-test;validate-the-digital-bank-url",
+        "after": [
+          {
+            "result": {
+              "duration": 617367419,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageDefination.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12229485782,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User opened the browser",
-            "match": {
-              "location": "LoginPageDefination.user_opened_the_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 8629316,
+              "duration": 130761333,
               "status": "passed"
             },
             "line": 5,
-            "name": "User is on login page",
+            "name": "Validate the URL",
             "match": {
-              "location": "LoginPageDefination.user_is_on_login_page()"
+              "location": "LoginPageDefination.validate_the_URL()"
             },
             "keyword": "Then "
-          },
+          }
+        ]
+      },
+      {
+        "before": [
           {
             "result": {
-              "duration": 4610006051,
+              "duration": 8306907045,
               "status": "passed"
             },
-            "line": 6,
+            "match": {
+              "location": "LoginPageDefination.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate the page title",
+        "description": "",
+        "id": "degital-bank-login-test;validate-the-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 612121161,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6860348,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the page title",
+            "match": {
+              "location": "LoginPageDefination.validate_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8073046893,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageDefination.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate the login functionality with correct username and password",
+        "description": "",
+        "id": "degital-bank-login-test;validate-the-login-functionality-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 618829897,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5622122920,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "User logs in to the application",
             "match": {
               "location": "LoginPageDefination.user_logs_in_to_the_application()"
@@ -49,10 +135,10 @@
         ]
       }
     ],
-    "name": "Degital bank functioanl test",
+    "name": "Degital bank login test",
     "description": "",
-    "id": "degital-bank-functioanl-test",
+    "id": "degital-bank-login-test",
     "keyword": "Feature",
-    "uri": "src/main/java/com/qa/features/DegitalBank.feature"
+    "uri": "src/main/java/com/qa/features/Login.feature"
   }
 ]
