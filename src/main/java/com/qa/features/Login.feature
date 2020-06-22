@@ -7,4 +7,4 @@ Scenario: Validate the page title
 	 Then Validate the page title 
 	
 Scenario: Validate the login functionality with correct username and password  
-	Then User logs in to the application 
+	Then User logs in to the application

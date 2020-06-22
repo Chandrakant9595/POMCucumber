@@ -1,6 +1,13 @@
 com\qa\pages\LoginPage.class
 com\qa\runner\LoginPageRunner.class
+com\qa\pages\NewSavingsPage.class
+com\qa\pages\ViewCheckingPage.class
+com\qa\pages\ViewSavingsPage.class
+com\qa\runner\NewCheckingPageRunner.class
 com\qa\util\TestUtil.class
 com\qa\pages\HomePage.class
+com\qa\pages\NewCheckingPage.class
+com\qa\runner\NewSavingsPageRunner.class
+com\qa\ReportListener\ExtentReportListenar.class
 com\qa\stepdefination\LoginPageDefination.class
 com\qa\base\TestBase.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CucumberPOM]">
+  <listeners>
+    <listener class-name="com.qa.ReportListener.ExtentReportListenar"/>
+  </listeners>
+  <test thread-count="5" name="POMCucumber(failed)">
+    <classes>
+      <class name="com.qa.runner.NewCheckingPageRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.runner.NewCheckingPageRunner -->
+      <class name="com.qa.runner.LoginPageRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.runner.LoginPageRunner -->
+    </classes>
+  </test> <!-- POMCucumber(failed) -->
+</suite> <!-- Failed suite [CucumberPOM] -->

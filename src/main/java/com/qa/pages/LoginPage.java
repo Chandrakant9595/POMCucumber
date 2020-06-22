@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class LoginPage extends TestBase{
 	
 	//define all web elements
@@ -30,6 +32,7 @@ public class LoginPage extends TestBase{
 	}
 
 	//define actions
+	@Step("Test step for Login functionality")
 	public HomePage login(String un, String pass) throws IOException {
 		userName.clear();
 		userName.sendKeys(un);
@@ -42,10 +45,12 @@ public class LoginPage extends TestBase{
 		return new HomePage();
 	}
 
+	@Step("Test step for validate the URL of login page")
 	public String validateTheURL() {
 		return driver.getCurrentUrl();
 	}
 	
+	@Step("Test step for validate the Title of login page")
 	public String validateThePageTitle() {
 		return driver.getTitle();
 	}

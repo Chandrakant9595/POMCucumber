@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34126" started-at="2020-06-12T07:16:53Z" finished-at="2020-06-12T07:17:27Z">
+  <suite name="Default suite" duration-ms="127446" started-at="2020-06-22T10:50:03Z" finished-at="2020-06-22T10:52:10Z">
     <groups>
       <group name="cucumber">
-        <method signature="LoginPageRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="feature" class="com.qa.runner.LoginPageRunner"/>
+        <method signature="NewSavingsPageRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.NewSavingsPageRunner@1c20538]" name="feature" class="com.qa.runner.NewSavingsPageRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="34126" started-at="2020-06-12T07:16:53Z" finished-at="2020-06-12T07:17:27Z">
-      <class name="com.qa.runner.LoginPageRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="setUpClass" is-config="true" duration-ms="282" started-at="2020-06-12T07:16:53Z" finished-at="2020-06-12T07:16:54Z">
+    <test name="Default test" duration-ms="127446" started-at="2020-06-22T10:50:03Z" finished-at="2020-06-22T10:52:10Z">
+      <class name="com.qa.runner.NewSavingsPageRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.NewSavingsPageRunner@1c20538]" name="setUpClass" is-config="true" duration-ms="786" started-at="2020-06-22T10:50:03Z" finished-at="2020-06-22T10:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="feature" duration-ms="33689" started-at="2020-06-12T07:16:54Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-12T07:17:27Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.NewSavingsPageRunner@1c20538]" name="feature" duration-ms="126315" started-at="2020-06-22T10:50:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-22T10:52:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Degital bank login test]]>
+                <![CDATA[Degital bank New Savings test]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.LoginPageRunner@f777e8]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2020-06-12T07:17:27Z" finished-at="2020-06-12T07:17:27Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.NewSavingsPageRunner@1c20538]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2020-06-22T10:52:10Z" finished-at="2020-06-22T10:52:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.qa.runner.LoginPageRunner -->
+      </class> <!-- com.qa.runner.NewSavingsPageRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

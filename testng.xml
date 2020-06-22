@@ -1,12 +1,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-  
-<suite name="CucumberPOM" verbose="1" >
 
-  <test name="POMCucumber" >
-    <classes>
-       
-       <class name="com.qa.runner.LoginPageRunner" />
-              
-    </classes>
-  </test>
+<suite name="CucumberPOM" verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ReportListener.ExtentReportListenar"></listener>
+	</listeners>
+
+	<test name="POMCucumber">
+		<classes>
+			<class name="com.qa.runner.LoginPageRunner" />
+			<class name="com.qa.runner.NewCheckingPageRunner" />
+			<class name="com.qa.runner.NewSavingsPageRunner" />
+		</classes>
+	</test>
 </suite>
